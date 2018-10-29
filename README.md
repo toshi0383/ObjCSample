@@ -1,6 +1,12 @@
 Objective-C and Swift mixed code generation playground.
 ---
 
+# Install Bridgecraft
+
+```
+mint install lvsti/Bridgecraft
+```
+
 # Makefile
 
 ## `make gen`

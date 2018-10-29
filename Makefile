@@ -3,6 +3,7 @@ clean:
 	rm -rf build/
 clean-swift-if:
 	rm -rf build/ObjCInterfaces.ignored.swift
+
 gen:
 	bridgecraft generate ObjCSample.xcodeproj ObjCSample \
 	 --sdk iphonesimulator \
