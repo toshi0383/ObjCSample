@@ -49,6 +49,10 @@ extension Hello {
 ## `make bootstrap`
 Perform both of above.
 
+# References
+- [Language Interoperability](https://developer.apple.com/documentation/swift#2984801)
+- [Swift-only features list](https://stackoverflow.com/a/26464318/3652888)
+
 # Requirements
 - Xcode 10
 - Swift4.2
