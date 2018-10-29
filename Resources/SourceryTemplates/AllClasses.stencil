@@ -1,0 +1,7 @@
+{% for type in types.classes %}
+extension {{ type.name }} {
+    {{ type.accessLevel }} override var description: String {
+        return "Hello I'm {{ type.name }} instance."
+    }
+}
+{% endfor %}

@@ -1,0 +1,10 @@
+sources:
+  - ObjCSample
+  - build/ObjCInterfaces.ignored.swift
+templates:
+  - Resources/SourceryTemplates/AllClasses.stencil
+output:
+  # Set filename as the most descending sort order to fix Swift inner-type extension bug.
+  # https://bugs.swift.org/browse/SR-631
+  ObjCSample/zzz.Sourcery.out.swift
+

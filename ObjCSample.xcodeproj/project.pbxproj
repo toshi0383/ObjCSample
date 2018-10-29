@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F7952F72186AEDE00F5CC3E /* zzz.Sourcery.out.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7952F62186AEDE00F5CC3E /* zzz.Sourcery.out.swift */; };
 		F29884C321868F9D00681EC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29884C221868F9D00681EC7 /* AppDelegate.m */; };
 		F29884C621868F9D00681EC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29884C521868F9D00681EC7 /* ViewController.m */; };
 		F29884C921868F9D00681EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29884C721868F9D00681EC7 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1F7952F62186AEDE00F5CC3E /* zzz.Sourcery.out.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zzz.Sourcery.out.swift; sourceTree = "<group>"; };
 		F29884BE21868F9D00681EC7 /* ObjCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29884C121868F9D00681EC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F29884C221868F9D00681EC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -67,6 +69,7 @@
 		F29884C021868F9D00681EC7 /* ObjCSample */ = {
 			isa = PBXGroup;
 			children = (
+				1F7952F62186AEDE00F5CC3E /* zzz.Sourcery.out.swift */,
 				F29884DF2186990700681EC7 /* DeallocTracker.h */,
 				F29884DD218698F900681EC7 /* DeallocTracker.m */,
 				F29884C121868F9D00681EC7 /* AppDelegate.h */,
@@ -159,6 +162,7 @@
 			files = (
 				F29884C621868F9D00681EC7 /* ViewController.m in Sources */,
 				F29884D121868F9E00681EC7 /* main.m in Sources */,
+				1F7952F72186AEDE00F5CC3E /* zzz.Sourcery.out.swift in Sources */,
 				F29884C321868F9D00681EC7 /* AppDelegate.m in Sources */,
 				F29884DC218698B200681EC7 /* Hello.swift in Sources */,
 				F29884D82186900000681EC7 /* A.m in Sources */,
