@@ -13,4 +13,8 @@ gen:
 sourcery:
 	sourcery
 
-bootstrap: gen sourcery
+pod-install:
+	rm -rf Pods
+	pod install
+
+bootstrap: pod-install gen sourcery
