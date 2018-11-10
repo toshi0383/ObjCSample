@@ -1,4 +1,4 @@
-.PHONY = bootstrap
+.PHONY = gen sourcery bootstrap pod-install
 clean:
 	rm -rf build/
 clean-swift-if:

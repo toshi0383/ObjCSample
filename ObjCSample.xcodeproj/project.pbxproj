@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		1F7952F72186AEDE00F5CC3E /* zzz.Sourcery.out.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F7952F62186AEDE00F5CC3E /* zzz.Sourcery.out.swift */; };
+		1FFD71662195D605007BC977 /* AutoDebugDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1FFD71652195D605007BC977 /* AutoDebugDescription.swift */; };
+		BE041192021C162B7A6F8616 /* libPods-ObjCSample.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E0E46790CE1098AF2B1BD0F /* libPods-ObjCSample.a */; };
 		F29884C321868F9D00681EC7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F29884C221868F9D00681EC7 /* AppDelegate.m */; };
 		F29884C621868F9D00681EC7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F29884C521868F9D00681EC7 /* ViewController.m */; };
 		F29884C921868F9D00681EC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F29884C721868F9D00681EC7 /* Main.storyboard */; };
@@ -17,14 +19,14 @@
 		F29884D82186900000681EC7 /* A.m in Sources */ = {isa = PBXBuildFile; fileRef = F29884D72186900000681EC7 /* A.m */; };
 		F29884DC218698B200681EC7 /* Hello.swift in Sources */ = {isa = PBXBuildFile; fileRef = F29884DB218698B200681EC7 /* Hello.swift */; };
 		F29884DE218698F900681EC7 /* DeallocTracker.m in Sources */ = {isa = PBXBuildFile; fileRef = F29884DD218698F900681EC7 /* DeallocTracker.m */; };
-		F2DE88E8F0B1395C3F797BD5 /* Pods_ObjCSample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EFD1258CE155034DCCA199CF /* Pods_ObjCSample.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		1F7952F62186AEDE00F5CC3E /* zzz.Sourcery.out.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = zzz.Sourcery.out.swift; sourceTree = "<group>"; };
+		1FFD71652195D605007BC977 /* AutoDebugDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutoDebugDescription.swift; sourceTree = "<group>"; };
 		6E44EC7584E17096FA9051BA /* Pods-ObjCSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCSample.release.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCSample/Pods-ObjCSample.release.xcconfig"; sourceTree = "<group>"; };
+		7E0E46790CE1098AF2B1BD0F /* libPods-ObjCSample.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ObjCSample.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7D360F11620524163034D9C /* Pods-ObjCSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjCSample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ObjCSample/Pods-ObjCSample.debug.xcconfig"; sourceTree = "<group>"; };
-		EFD1258CE155034DCCA199CF /* Pods_ObjCSample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjCSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29884BE21868F9D00681EC7 /* ObjCSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ObjCSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F29884C121868F9D00681EC7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F29884C221868F9D00681EC7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -48,7 +50,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DE88E8F0B1395C3F797BD5 /* Pods_ObjCSample.framework in Frameworks */,
+				BE041192021C162B7A6F8616 /* libPods-ObjCSample.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -67,7 +69,7 @@
 		99CA09B12446FDA0B567C30C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				EFD1258CE155034DCCA199CF /* Pods_ObjCSample.framework */,
+				7E0E46790CE1098AF2B1BD0F /* libPods-ObjCSample.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -93,6 +95,7 @@
 		F29884C021868F9D00681EC7 /* ObjCSample */ = {
 			isa = PBXGroup;
 			children = (
+				1FFD71652195D605007BC977 /* AutoDebugDescription.swift */,
 				1F7952F62186AEDE00F5CC3E /* zzz.Sourcery.out.swift */,
 				F29884DF2186990700681EC7 /* DeallocTracker.h */,
 				F29884DD218698F900681EC7 /* DeallocTracker.m */,
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F29884C621868F9D00681EC7 /* ViewController.m in Sources */,
+				1FFD71662195D605007BC977 /* AutoDebugDescription.swift in Sources */,
 				F29884D121868F9E00681EC7 /* main.m in Sources */,
 				1F7952F72186AEDE00F5CC3E /* zzz.Sourcery.out.swift in Sources */,
 				F29884C321868F9D00681EC7 /* AppDelegate.m in Sources */,

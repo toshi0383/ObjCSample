@@ -1,7 +1,36 @@
+// MARK: NSObject, AutoDebugDescription
+
 {% for type in types.classes %}
-extension {{ type.name }} {
-    {{ type.accessLevel }} override var description: String {
-        return "Hello I'm {{ type.name }} instance."
+{% if type.implements.AutoDebugDescription and type.based.NSObject %}
+extension {{ type.name }}{% if !type.implements.CustomDebugStringConvertible %}: CustomDebugStringConvertible{% endif %} {
+    {{ type.accessLevel }} override var debugDescription: String {
+        return """
+        [{{ type.name }}]
+        {% for prop in type.allMethods %}
+
+          {{ prop.name }}
+        {% endfor %}
+        {% for prop in type.allVariables %}
+          {% if prop.type.based.NSObject or prop.typeName|hasSuffix:"!" %}
+          {{ prop.name }}: \({{ prop.name }}?.debugDescription ?? "")
+          {% else %}
+          {{ prop.name }}: \({{ prop.name }}.debugDescription) {{ prop.typeName }}
+          {% endif %}
+        {% endfor %}
+        """
     }
 }
+{% endif %}
+{% endfor %}
+
+// MARK: Other
+
+{% for type in types.classes %}
+{% if !type.implements.AutoDebugDescription %}
+extension {{ type.name }}{% if !type.implements.CustomDebugStringConvertible %}: CustomDebugStringConvertible{% endif %} {
+    {{ type.accessLevel }} var debugDescription: String {
+        return "Hello I'm {{ type.name }}'s instance."
+    }
+}
+{% endif %}
 {% endfor %}

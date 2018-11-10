@@ -1,5 +1,3 @@
-use_frameworks!
-
 project './ObjCSample.xcodeproj'
 
 target 'ObjCSample' do

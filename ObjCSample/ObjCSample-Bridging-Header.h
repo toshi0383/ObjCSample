@@ -1,3 +1,3 @@
 #import "DeallocTracker.h"
 #import "A.h"
-@import GoogleInteractiveMediaAds;
+#import <GoogleInteractiveMediaAds/GoogleInteractiveMediaAds.h>
